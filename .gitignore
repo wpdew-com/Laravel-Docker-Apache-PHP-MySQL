@@ -1,0 +1,7 @@
+/**/Thumbs.db
+/**/*.DS_Store
+/**/package-lock.json
+/**/debug.log
+.DS_Store
+db_data/*
+apache_log/*
