@@ -14,7 +14,7 @@
 
 **1**. Установка в текущую папку с очисткой git папок 
 ```
-git clone https://github.com/wpdew-com/docker_for_codeigniter .; rd .gitignore; rd readme.md; rm -r -fo .git
+git clone https://github.com/wpdew-com/Laravel-Docker-Apache-PHP-MySQL .; rd .gitignore; rd readme.md; rm -r -fo .git
 ```
 
 **2**. Создайте контейнеры и запустите их.
