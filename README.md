@@ -43,9 +43,31 @@ docker-compose down
 cd src
 composer install
 composer update
+cp .env.example .env
 php artisan key:generate
 ```
+* После выполнения команды, вам нужно внести изменения в файл .env
 
+```shell script
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
+* После изменения файла .env, вам нужно выполнить команду для создания таблиц в базе данных:
+
+```shell script
+php artisan migrate
+```
+* После выполнения команды, вам нужно выполнить команду для заполнения таблицы данными:
+
+```shell script
+php artisan db:seed
+```
+* После выполнения команды вы можете проверить работу сайта
 
 * Доступ к сайту по адресу [http://localhost/](http://localhost/)
 * Доступ к adminer [http://localhost:8080/](http://localhost:8080/) 
