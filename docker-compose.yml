@@ -15,6 +15,7 @@ services:
         ports:
             - 3306:3306
     web:
+        container_name: lara11-web-1
         build:
             context: .
             dockerfile: docker/apache/Dockerfile
