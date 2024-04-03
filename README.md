@@ -47,8 +47,7 @@ make restart
 * После запуска вы можете проверить работу сайта
 
 * Доступ к сайту по адресу [http://localhost/](http://localhost/)
-* Доступ к adminer [http://locclear
-alhost:8080/](http://localhost:8080/) 
+* Доступ к adminer [http://localhost:8080/](http://localhost:8080/) 
     
     - Сервер: db
     - Имя пользователя: root # По умолчанию
