@@ -63,6 +63,12 @@ php artisan ui bootstrap --auth
 php artisan adminlte:install --type=full --with=main_views
 ```
 
+* Пользователь по умолчанию
+```
+'email' => 'test@example.com',
+'password' => 'password',
+```
+
 * Запуск продакшн
 ``` 
 npm run build
