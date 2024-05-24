@@ -54,7 +54,7 @@ make restart
     - Пароль: root # По умолчанию
     - База данных: laravel # По умолчанию
 
-* Установка [Laravel-AdminLTE}(https://github.com/jeroennoten/Laravel-AdminLTE)
+* Установка [Laravel-AdminLTE](https://github.com/jeroennoten/Laravel-AdminLTE)
 ```
 composer require jeroennoten/laravel-adminlte
 php artisan adminlte:install
