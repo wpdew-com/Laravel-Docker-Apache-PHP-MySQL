@@ -1,0 +1,6 @@
+[
+  {
+    "type": "sqlite",
+    "path": "PATH_TO_YOU_BASE/database/database.sqlite"
+  }
+]

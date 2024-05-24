@@ -53,3 +53,16 @@ make restart
     - Имя пользователя: root # По умолчанию
     - Пароль: root # По умолчанию
     - База данных: laravel # По умолчанию
+
+* Установка Laravel-AdminLTE
+```
+composer require jeroennoten/laravel-adminlte
+php artisan adminlte:install
+composer require laravel/ui
+php artisan ui bootstrap --auth
+php artisan adminlte:install --type=full --with=main_views
+```
+
+* Запуск продакшн
+``` npm run build
+```
