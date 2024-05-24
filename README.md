@@ -64,5 +64,6 @@ php artisan adminlte:install --type=full --with=main_views
 ```
 
 * Запуск продакшн
-``` npm run build
+``` 
+npm run build
 ```
